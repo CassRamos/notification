@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: cass
+    password: password
+
+rabbitmq:
+  pending-proposal:
+    notification-queue: pending-proposal.notification
+
+aws:
+  access-key: ${AWS_ACCESS_KEY}
+  secret-key: ${AWS_SECRET_KEY}
